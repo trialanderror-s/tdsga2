@@ -1,4 +1,4 @@
-name: Test Action
+name: Example GitHub Action
 
 on:
   push:
@@ -9,8 +9,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: 22f3001272@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+      - name: 22£3001272@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
